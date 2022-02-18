@@ -1,0 +1,33 @@
+{
+  "name": "Mediasoup-Server",
+  "version": "1.0.0",
+  "description": "Mediasoup-Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://codehub.devcloud.cn-east-3.huaweicloud.com/MyMeeting_zjh00001/Mediasoup-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-lock": "^1.3.0",
+    "events": "^3.3.0",
+    "express": "^4.17.1",
+    "log4js": "^6.3.0",
+    "mediasoup": "^3.8.0",
+    "moment": "^2.29.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.6.3",
+    "protoo-server": "^4.0.6",
+    "socket.io": "^4.1.3",
+    "string-random": "^0.1.3",
+    "tsc": "^2.0.3",
+    "typescript": "^4.3.5"
+  }
+}

@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`default picture of peer given width smaller than height 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 300,
+        "width": 200,
+      },
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#171717",
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <Image
+    source={Object {}}
+    style={
+      Object {
+        "height": 66.66666666666667,
+        "width": 66.66666666666667,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`default picture of peer with avatar 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 800,
+        "width": 300,
+      },
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#171717",
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "testUri.jpg",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 50,
+        "height": 100,
+        "width": 100,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`default picture of peer with no avatar 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 800,
+        "width": 300,
+      },
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#171717",
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <Image
+    source={Object {}}
+    style={
+      Object {
+        "height": 100,
+        "width": 100,
+      }
+    }
+  />
+</View>
+`;

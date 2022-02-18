@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`chatbubble render my information 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "flex-start",
+      "maxWidth": 100,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "flex-end",
+        "backgroundColor": "#76db6b",
+        "borderRadius": 10,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+        }
+      }
+    >
+      chat
+    </Text>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#aaaaaa",
+          "fontSize": 10,
+          "marginTop": 2,
+        },
+        Object {
+          "alignSelf": "flex-end",
+        },
+      ]
+    }
+  >
+    17:02:02
+  </Text>
+</View>
+`;
+
+exports[`chatbubble render peer information 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "flex-start",
+      "maxWidth": 100,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+        }
+      }
+    >
+      chat
+    </Text>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#aaaaaa",
+          "fontSize": 10,
+          "marginTop": 2,
+        },
+        null,
+      ]
+    }
+  >
+    17:02:02
+  </Text>
+</View>
+`;
+
+exports[`filebubble render basic use 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "flex-start",
+      "maxWidth": 200,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "padding": 10,
+      }
+    }
+  >
+    <ForwardRef
+      onPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <Display
+          item={
+            Object {
+              "bytesSent": 0,
+              "fileJobStatus": 3,
+              "filePath": "filepath",
+              "fileType": "text/plain",
+              "filename": "textFile",
+              "fromMyself": false,
+              "myType": "file-alt",
+              "timestamp": "2021-09-05T17:02:02+08:00",
+              "totalBytes": 100,
+            }
+          }
+        />
+      </View>
+    </ForwardRef>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#aaaaaa",
+          "fontSize": 10,
+          "marginTop": 2,
+        },
+        null,
+      ]
+    }
+  >
+    17:02:02
+  </Text>
+</View>
+`;
